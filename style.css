@@ -14,7 +14,7 @@ body {
 header {
     width: 100vw;
     /* Heigh is temporary */
-    /* height: 300px; */
+    height: 600px;
     margin: 0 auto;
     background-color: #1F2937;
 
@@ -30,7 +30,7 @@ header {
     justify-content: space-between;
 
     padding: 32px;
-    margin-bottom: 48px;
+    margin-bottom: 98px;
 }
 
 .logo {
