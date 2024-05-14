@@ -20,6 +20,7 @@ header {
 
 }
 
+/* navbar section */
 .navbar {
     max-width: 1200px;
     margin: 0 auto;
@@ -48,4 +49,34 @@ ul {
     text-decoration:none;
     color: #E5E7EB;
     font-size: 18px;
+}
+
+/* Hero section */
+
+.hero {
+    max-width: 1200px;
+    margin: 0 auto;
+
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.container-hero > h1 {
+    font-size: 48px;
+    font-weight:bolder;
+    color: #F9FAF8;
+}
+
+.container-hero > p {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-bottom: 8px;
+}
+
+.container-hero button {
+    background-color: #3882f6;
+    color: #F9FAF8;
+    padding: 8px 16px;
+    border-radius: 5px;
 }
