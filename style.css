@@ -80,3 +80,60 @@ ul {
     padding: 8px 16px;
     border-radius: 5px;
 }
+
+/* Service section */
+
+section {
+    width: 100vw;
+    height: 600px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    border: 1px solid black;
+}
+
+h3 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    
+    margin: 36px 0;
+    margin-bottom: 48px;
+}
+
+.service {
+    max-width: 1200px;
+    /* border: 5px solid red; */
+
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+li {
+    display: flex;
+    display: block;
+}
+
+.box-frame {
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    border: 5px solid #3882F6;
+}
+
+li,div > p {
+    font-size: 18px;
+    color: #1F2937;
+    
+    flex: 0 0 0;
+}
+
+
+
