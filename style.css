@@ -166,3 +166,46 @@ li,div > p {
     font-size: 24px;
 }
 
+/* Call-To-Action Section */
+
+.section-3 {
+    width: 100vw;
+    height: 400px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta {
+    max-width: 1200px;
+    background-color: #3882F6;
+
+    display: flex;
+    justify-content: space-evenly;
+    flex: 1;
+    gap: 3rem;
+
+    padding: 48px;
+    border-radius: 10px;
+
+}
+
+h4 {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.cta div > p {
+    color: #F9FAF8;
+
+}
+
+.cta > button {
+    border-radius: 10px;
+    border: 2px solid #F9FAF8;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 0 32px;
+    font-size: 18px;
+}
