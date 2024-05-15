@@ -209,3 +209,19 @@ h4 {
     padding: 0 32px;
     font-size: 18px;
 }
+
+/* Footer Section */
+
+footer {
+    background-color: #1F2937;
+    width: 100vw;
+    height: 100px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer > p {
+    color: #F9FAF8;
+}
