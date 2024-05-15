@@ -83,7 +83,7 @@ ul {
 
 /* Service section */
 
-section {
+.section-1 {
     width: 100vw;
     height: 600px;
 
@@ -92,7 +92,7 @@ section {
     align-items: center;
 
     text-align: center;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 h3 {
@@ -135,5 +135,34 @@ li,div > p {
     flex: 0 0 0;
 }
 
+/* Memorial section */
+.section-2 {
+    background-color: #E5E7EB;
+    width: 100vw;
+    height: 600px;
 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.memorial {
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.memorial > p {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    flex: 0 0 auto;
+}
+
+.memorial > span {
+    color: #1F2937;
+    font-weight: bold;
+    font-size: 24px;
+}
 
